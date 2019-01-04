@@ -132,7 +132,7 @@ cd ~/catkin_ws && catkin_make
 
 ## 3. ROS and the Volksbot
 
-The last section [2.II.C.](#c.-create-your-first-package) was for learning purposes only and is not relevant for our Volksbot project, since there are already the volksbot_driver package for the bot itself and the uos_tool package to control the bot. Now we will learn how to use the two modules together.
+The last section [2.II.C.](#user-content-c.-create-your-first-package) was for learning purposes only and is not relevant for our Volksbot project, since there are already the volksbot_driver package for the bot itself and the uos_tool package to control the bot. Now we will learn how to use the two modules together.
 
 ### I. Cloning the projects
 
@@ -143,18 +143,18 @@ cd ~/catkin_ws/src
 git clone https://github.com/uos/volksbot_driver.git
 ```
 #### B. uos_tools
-Similarly to the [volksbot_driver](#a.-volksbot_driver-1) package, we are cloning the uos_tools into our `src` folder and build our catkin workspace afterwards:
+Similarly to the [volksbot_driver](#user-content-a.-volksbot_driver-1) package, we are cloning the uos_tools into our `src` folder and build our catkin workspace afterwards:
 ```bash
 cd ~/catkin_ws/src
 git clone https://github.com/uos/uos_tools.git
 # build the workspace
 cd ~/catkin_ws && catkin_make
 ```
-After the successful build and of course installing the ***libepos2*** from section [1.II.C.](#c.-installing-libepos2) you can now plug in your robot cables and start using ROS with your robot as described in the next section.
+After the successful build and of course installing the ***libepos2*** from section [1.II.C.](#user-content-c.-installing-libepos2) you can now plug in your robot cables and start using ROS with your robot as described in the next section.
 
 ### II. Lets move
 
-Provided that you followed the complete guide up to this point and also created your `~/.bash-profile` with the mentioned aliases from section [1.II.D.](#d.-creating-your-aliases) where are now starting to move the bot.
+Provided that you followed the complete guide up to this point and also created your `~/.bash-profile` with the mentioned aliases from section [1.II.D.](#user-content-d.-creating-your-aliases) where are now starting to move the bot.
 
 #### A. Launch volksbot_driver
 
